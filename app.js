@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
-mongoose.connect("mongodb+srv://admin-shubham:database@cluster0.vuxic.mongodb.net/listDB?retryWrites=true&w=majority",{
+mongoose.connect("",{
     useNewUrlParser: true ,
     useUnifiedTopology: true});
 
