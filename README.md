@@ -1,27 +1,44 @@
 # TODO-list-maker
 
-TODO-list-maker is a way to make a list of your all work for a day and on completing them just cut them
+TODO-list-maker is a project to understand the routing pages and content from "web page" --> "server" and "server" -->"web page"
 
-Dependencies:
-             express , 
-             body-parser ,
-             ejs.
+System Dependencies:
 
-How to use the code:--
+1.Install NodeJS
+
+2.Install MongoDB
+
+Project Dependencies:
+
+1.Express
+
+2.Body-Parser
+
+3.Mongoose
+
+4.ejs 
+
+
+             
+
+How to Get started the code:--
 --------------------------------------------------------------------------------------
+1.From terminal start mongoDB as "mongod".
 
-If your system have node.js environment already setup ignore step:1
+2.Track database by opening other window in terminal as "mongo".
 
-Step:1 install node.js than
-       npm (pre-installed or if not do install it too)
-       now install nodemon (use for automatically restarting server after every change)
-       
-Step:2 npm init (Do set Entry Point as app.js and leave everything default for now )
-       npm  i express body-parser ejs (run this in your terminal)
-       
-Step:3 port is already set to "3000" . Make sure all the path are kept as default as in my repo.
+3.If you use nodemon run app.js as "nodemon app.js" otherwise "node app.js".
 
-Step:4 In your browser type localhost:3000 . You are good to go Enjoy.
+4.Run local host as "localhost:3000". the route page will be like below.
 
+![Today](https://user-images.githubusercontent.com/63541970/120898594-5be4ce80-c5e0-11eb-80c8-709953f97533.PNG)
 
-Note:- Going to add a database soon 
+5.For custom list type /customListName in url as below.
+
+![custom list](https://user-images.githubusercontent.com/63541970/120898634-90588a80-c5e0-11eb-9221-e91137a4ef4e.PNG)
+
+6.You will redirect to your new customlist as below.
+
+![work](https://user-images.githubusercontent.com/63541970/120898677-b9791b00-c5e0-11eb-8167-076ebdd7fdc4.PNG)
+
+7.As many CustomList can be created as "list.ejs" file is being render each time.
